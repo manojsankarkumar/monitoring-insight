@@ -1,0 +1,62 @@
+{
+"MODEL" : {
+	"PE1": [
+
+		{
+			"Transaction": "SMQ1",
+			"Description": "Monitor Outbound Queues"
+		},
+
+		{
+			"Transaction": "SMQ2",
+			"Description": "Monitor Inbound Queues"
+		},
+
+		{
+			"Transaction": "SXMB_MONI",
+			"Description": "Monitoring XML Messages (Errors)"
+		},
+
+		{
+			"Transaction": "SXMB_MONI",
+			"Description": "Monitoring XML Messages (Scheduled)"
+		}
+	],
+	
+	"PC1": [
+
+		{
+			"Transaction": "SMQ1",
+			"Description": "Monitor Outbound Queues"
+		},
+		{
+			"Transaction": "SMQ2",
+			"Description": "Monitor Inbound Queues"
+		},
+        {
+        	"Transaction": "SMW01"
+        },
+		{
+			"Transaction": "SXMB_MONI",
+			"Description": "Monitoring XML Messages (Errors)"
+		},
+		{
+			"Transaction": "SXMB_MONI",
+			"Description": "Monitoring XML Messages (Scheduled)"
+		}
+	],
+	
+		"PX1": [
+
+		{
+			"Transaction": "SXMB_IFR",
+			"Description": "Communication Channel Monitoring"
+		},
+
+		{
+			"Transaction": "SXMB_IFR",
+			"Description": "Message Monitoring"
+		}
+	]
+}
+}
